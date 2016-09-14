@@ -1,0 +1,12 @@
+[nsxlabhosts]
+tier1-host11
+tier1-host12
+tier2-host11
+tier2-host12
+
+[nsxlabhosts:vars]
+ansible_ssh_user = vmware
+ansible_ssh_pass = vmware
+ansible_become_pass = vmware
+ansible_become_method = sudo
+ansible_python_interpreter=/usr/bin/python2.7
